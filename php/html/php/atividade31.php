@@ -15,7 +15,13 @@
     
     $numero_2 = $_GET['numero_2'];
 
-    $resultado = $numero_1 * $numero_2;
+    $numero_3 = $_GET['numero_3'];
+    
+    $numero_4 = $_GET['numero_4'];
+
+    $numero_5 = $_GET['numero_5'];
+
+    $resultado = $numero_1 * $numero_2 * $numero_3 * $numero_4 * $numero_5;
 
     echo 'O Resultado sera :' .$resultado;
 
